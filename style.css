@@ -1,0 +1,15 @@
+
+.centered-form {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-width-limit {
+    max-width: 500px;
+    width: 100%;
+}
+
+.list-group-item {
+    padding: 10px 15px;
+}
