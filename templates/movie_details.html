@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ movie['Movie Title'] }}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-dark text-white">
+    <div class="container mt-5">
+        <h1>{{ movie['Movie Title'] }}</h1>
+        <div class="card bg-secondary text-white">
+            <div class="card-body">
+                <h5 class="card-title">Details</h5>
+                <p class="card-text"><strong>Genre:</strong> {{ movie['Genre'] }}</p>
+                <p class="card-text"><strong>Director:</strong> {{ movie['Director'] }}</p>
+                <p class="card-text"><strong>Cast:</strong> {{ movie['Cast'] }}</p>
+                <p class="card-text"><strong>Year:</strong> {{ movie['Year'] }}</p>
+                <p class="card-text"><strong>Plot Synopsis:</strong> {{ movie['Plot Synopsis'] }}</p>
+                <p class="card-text"><strong>IMDB Score:</strong> {{ movie['IMDB Score'] }}</p>
+                <p class="card-text"><strong>Rotten Tomatoes Audience Score:</strong> {{ movie['Audience Score'] }}</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
