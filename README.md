@@ -32,6 +32,4 @@ Due to frequent changes in the structures of the IMDb and Rotten Tomatoes websit
 - **Web Framework**: `Flask`
 - **Excel Handling**: Data is read from and written to Excel files using `pandas`.
 
-## Project Structure
-
 
