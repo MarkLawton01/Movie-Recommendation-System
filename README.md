@@ -3,8 +3,6 @@
 ## Overview
 This project implements a movie recommendation system that combines data from **IMDb** and **Rotten Tomatoes** to provide users with customized movie recommendations. The project was built using **Python**, **Selenium**, **BeautifulSoup**, and **Flask** to create a web-based interface for users to input movie titles and receive recommendations based on various criteria (IMDb scores, Rotten Tomatoes critic and audience scores).
 
-Due to frequent changes in the structures of the IMDb and Rotten Tomatoes websites, this project demonstrates the challenges of maintaining a web scraper in a real-world scenario. This README also outlines how future iterations would adapt to these changes using more robust and sustainable methods such as APIs and Neo4j databases.
-
 ## Project Components
 
 - **IMDb Web Scraper**:
